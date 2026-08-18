@@ -31,12 +31,8 @@ function Profile() {
       <main className="character-card">
 
         <div className="character-image">
-          <img
-            src="/public/ben10.jpg"
-            alt="Ben 10"
-          />
-        </div>
-
+  <img src="/ben10.jpg" alt="Ben 10" />
+  </div>
         <div className="character-info">
 
           <p className="tag">
