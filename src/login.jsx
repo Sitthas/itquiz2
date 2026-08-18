@@ -22,7 +22,6 @@ function Login() {
   return (
     <div className="login-page">
       <div className="login-box">
-
         <h1>BEN 10</h1>
 
         <p className="subtitle">
@@ -30,7 +29,6 @@ function Login() {
         </p>
 
         <form onSubmit={handleLogin}>
-
           <input
             type="text"
             placeholder="Username"
@@ -48,20 +46,14 @@ function Login() {
           <button type="submit">
             LOGIN
           </button>
-
         </form>
 
-        {error && (
-          <p className="error">
-            {error}
-          </p>
-        )}
+        {error && <p className="error">{error}</p>}
 
         <div className="hint">
           <p>Username: admin</p>
           <p>Password: 12345678</p>
         </div>
-
       </div>
     </div>
   );
