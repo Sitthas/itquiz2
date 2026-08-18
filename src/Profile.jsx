@@ -32,7 +32,7 @@ function Profile() {
 
         <div className="character-image">
           <img
-            src="/ben10.jpg"
+            src="/public/ben10.jpg"
             alt="Ben 10"
           />
         </div>
